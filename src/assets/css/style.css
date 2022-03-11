@@ -1,0 +1,193 @@
+:root{
+
+    --primary:#df1e5a;
+    --secondary:#ebb32e;
+    --third:#2db67d;
+    --fourth:#33c5ef;
+    --black:#000000;
+    --white:#ffffff;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+
+
+}
+
+p{
+
+    margin-bottom: 0 !important;
+
+}
+
+img {
+
+    max-width: 100%;
+
+}
+
+a{
+
+    text-decoration: none !important;
+
+}
+
+body{
+
+
+    background-color: var(--black) !important;
+  
+
+}
+
+
+
+.custom-btn{
+
+    padding: 0.5rem 2rem!important;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.primary-btn{
+
+    background-color: var(--primary);
+    color: var(--white);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.primary-btn:hover{
+
+    color: var(--black);
+
+}
+
+.primary-btn::after{
+
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:0;
+    height:100%;
+    background-color: var(--white);
+    transition: all .8s;
+    border-radius: inherit;
+    z-index: -1;
+  
+   
+
+}
+
+.primary-btn:hover::after{
+    width: 100%;  
+
+}
+
+.logo{
+  
+  width: 50px;
+
+  }
+
+
+.custom-nav{
+
+  background-color: var(--secondary);
+  box-shadow: 2px 1px 13px 2px #00000027;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+  color: var(--black) !important;
+  font-weight: 700;
+  margin-right: 10px;
+
+}
+
+.main-gif{
+
+    height: 100vh;
+
+}
+
+.main-gif img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+.about-section{
+
+    padding: 7rem 0;
+    
+}
+.dual-heading {
+
+color: var(--white);
+
+}
+
+.dual-heading h3{
+
+    font-size: 20px;
+}
+
+.dual-heading h3:after{
+
+    content: "";
+    height: 5px;
+    width: 7%;
+    background-color: var(--primary);
+    display: block;
+    margin: 10px 0;
+    
+}
+
+
+.dual-heading h2{
+
+    font-size: 4rem;
+}
+
+.about-section p{
+
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes nft-animate {
+    0.0%{
+    }
+    100%{
+    transform: translate(0,0px);
+    }
+    49.6%{
+    transform: translate(0,-20px);
+    }
+    }
+    
+    
+    /* Add the animation: property to whichever element you want to animate */
+    .animate{
+    animation: nft-animate 3s ease 0s infinite normal none;
+    }
