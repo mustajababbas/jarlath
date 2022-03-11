@@ -10,16 +10,6 @@
 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-
-
-
-}
 
 p{
 
@@ -95,6 +85,8 @@ body{
 
 }
 
+
+
 .logo{
   
   width: 50px;
@@ -118,6 +110,29 @@ body{
 
 }
 
+.main{
+
+
+    background: #0000008c;
+  
+  } 
+  
+  
+  .main:after{
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../images/bg.jpg);
+    background-position: top right;
+    z-index: -1;
+  
+  }
+
 .main-gif{
 
     height: 100vh;
@@ -135,7 +150,7 @@ body{
 
 .about-section{
 
-    padding: 7rem 0;
+    padding: 10rem 0;
     
 }
 .dual-heading {
@@ -191,3 +206,36 @@ color: var(--white);
     .animate{
     animation: nft-animate 3s ease 0s infinite normal none;
     }
+
+.collection-box{
+
+    padding:1rem;
+    background-color: var(--black);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    filter: grayscale(1);
+
+}
+
+.collection-box:hover{
+
+    box-shadow: 0px 4px 20px 0px #000000;
+    filter: grayscale(0);
+
+}
+
+.collection-box img{
+
+    border-radius: inherit;
+
+}
+
+.section-title h2{
+
+    text-align: center;
+    color: var(--white);
+    font-size: 3.5rem !important; 
+    margin: 25px 0;
+
+}

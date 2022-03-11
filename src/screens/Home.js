@@ -1,5 +1,6 @@
 import { Col, Container, Row, Accordion } from "react-bootstrap";
 import MainSection from "../components/Mainsection"
+import Collection from "../components/Collection"
 import portfolio from "../assets/images/portfolio.jpg"
 
 
@@ -49,8 +50,10 @@ function Home(props){
                             </Col>
                         </Row>
                     </Container>
-                    
+
                 </section>
+
+                <Collection/>
 
             </div>
 
