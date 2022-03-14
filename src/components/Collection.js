@@ -78,8 +78,8 @@ function Collection(){
                 </Row>
 
 
-                <div className="text-center py-5">
-                    <Link to={"#"} className="custom-btn primary-btn">More</Link>\
+                <div className="d-flex justify-content-center p-5">
+                    <Link to={"#"} className="custom-btn primary-btn">More</Link>
                 </div>
 
            </Container>

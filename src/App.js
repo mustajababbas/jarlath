@@ -5,6 +5,7 @@ import './assets/css/responsive.css';
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 import Home from './screens/Home';
 import Header from "./components/Header"
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
     <Routes>
  
       
-      <Route path="/" element={<Home header={<Header/>}/>} />
+      <Route path="/" element={<Home header={<Header/>} footer={<Footer/>}/>} />
     
   
     </Routes>

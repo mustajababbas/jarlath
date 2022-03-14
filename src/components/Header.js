@@ -1,18 +1,33 @@
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import Logo from "../assets/images/logo.png"
+import {useState, useEffect} from "react"
+import { Link } from "react-router-dom";
 
 function Header(){
+
+const [navbar, setNavbar] = useState(false);
+
+
+useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 80) {
+        setNavbar(true);
+      } else {
+        setNavbar(false);
+      }
+    });
+  }, []);
 
     return(
 
         <>
         
-        <Navbar collapseOnSelect expand="lg" className="custom-nav">
+        <Navbar collapseOnSelect expand="lg" className={ navbar ? "custom-nav active" : "custom-nav"}>
             <Container className="justify-content-between">
 
-            <Navbar.Brand href="#home" className="logo">
+            <Link to={"/"} className="logo">
                 <img src={Logo}/>
-            </Navbar.Brand>
+            </Link>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav"  className="justify-content-end">
