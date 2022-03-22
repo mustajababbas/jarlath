@@ -14,67 +14,162 @@ function Collection(){
                     <h2>Collection</h2>
                 </div>
 
-                <Row className="gy-5">
+                <Row className="mb-5 justify-content-center">
 
-                    <Col lg={4}>
+                    <Col lg={2}>
 
-                        <div className="collection-box">
+                        <div className="collection-box blue">
 
                             <img src={nft}/>
+                            <h4>Viserion</h4>
 
                         </div>
 
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={2}>
 
-                    <div className="collection-box">
-
-                        <img src={nft}/>
-
-                    </div>
-
-                    </Col>
-
-                    <Col lg={4}>
-
-                    <div className="collection-box">
+                    <div className="collection-box blue">
 
                         <img src={nft}/>
+                        <h4>Crypto Jumbo</h4>
 
                     </div>
 
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={2}>
 
-                    <div className="collection-box">
+                    <div className="collection-box blue">
 
                         <img src={nft}/>
+                        <h4>Crypto Jumbo</h4>
 
                     </div>
 
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={2}>
 
-                    <div className="collection-box">
+                    <div className="collection-box blue">
 
-                    <img src={nft}/>
+                        <img src={nft}/>
+                        <h4>Crypto Punishment</h4>
+
+                    </div>
+
+                    </Col>
+
+                    <Col lg={2}>
+
+                    <div className="collection-box blue">
+
+                        <img src={nft}/>
+                        <h4>Crypto Cuack</h4>
 
                     </div>
 
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={2}>
 
-                    <div className="collection-box">
+                    <div className="collection-box blue">
 
-                    <img src={nft}/>
+                        <img src={nft}/>
+                        <h4>Bark Crypto Pug</h4>
 
                     </div>
 
                     </Col>
+    
+
+                </Row>
+
+                <Row className="mb-5 justify-content-center">
+                    
+                    <Col lg={2}>
+
+                        <div className="collection-box yellow">
+
+                            <img src={nft}/>
+                            <h4>SpeechLESS</h4>
+
+                        </div>
+
+                    </Col>
+
+                    <Col lg={2}>
+
+                    <div className="collection-box yellow">
+
+                        <img src={nft}/>
+                        <h4>BRAVETY</h4>
+
+                    </div>
+
+                    </Col>
+
+                    <Col lg={2}>
+
+                    <div className="collection-box yellow">
+
+                        <img src={nft}/>
+                        <h4>Always on My HEAD</h4>
+
+                    </div>
+
+                    </Col>
+
+                    <Col lg={2}>
+
+                    <div className="collection-box yellow">
+
+                        <img src={nft}/>
+                        <h4>Caribbean Crypto Exotics</h4>
+
+                    </div>
+
+                    </Col>
+
+
+                </Row>
+
+                <Row className="mb-5 justify-content-center">
+                    
+                    <Col lg={2}>
+
+                        <div className="collection-box pink">
+
+                            <img src={nft}/>
+                            <h4>It never happened</h4>
+
+                        </div>
+
+                    </Col>
+
+                    <Col lg={2}>
+
+                    <div className="collection-box pink">
+
+                        <img src={nft}/>
+                        <h4>Unoccupied</h4>
+
+                    </div>
+
+                    </Col>
+
+                    <Col lg={2}>
+
+                    <div className="collection-box pink">
+
+                        <img src={nft}/>
+                        <h4>Bare SOLO Lights</h4>
+
+                    </div>
+
+                    </Col>
+
+
                 </Row>
 
 

@@ -34,9 +34,10 @@ useEffect(() => {
                
          
                 <Nav>
-                <Nav.Link href="#">Collection</Nav.Link>
-                <Nav.Link href="#">FAQ</Nav.Link>
-                <Nav.Link href="#">Breading</Nav.Link>
+                <Link to={"/about"} href="#">About</Link>
+                <Link to={"#"} href="#">Collection</Link>
+                <Link to={"#"} href="#">FAQ</Link>
+                <Nav.Link href="#">Team</Nav.Link>
                 <a href="#" className="custom-btn primary-btn">Connect</a>
                 </Nav>
             </Navbar.Collapse>
